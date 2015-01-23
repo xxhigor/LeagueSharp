@@ -61,7 +61,7 @@ The idea where the lines come from is that u can calculate how far they are from
             Menu.AddItem(new MenuItem("showRecalls", "Show Recalls").SetValue(true));
             Menu.AddItem(new MenuItem("baseUlt", "Base Ult").SetValue(true));
             Menu.AddItem(new MenuItem("checkCollision", "Check Collision").SetValue(true));
-            Menu.AddItem(new MenuItem("panicKey", "No Ult while SBTW").SetValue(new KeyBind(32, KeyBindType.Press))); //32 == space
+            Menu.AddItem(new MenuItem("panicKey", "No Ult while SBTW").SetValue(new KeyBind(32, KeyBindType.Press))); //32 == _
             Menu.AddItem(new MenuItem("regardlessKey", "No timelimit (hold)").SetValue(new KeyBind(17, KeyBindType.Press))); //17 == ctrl
 
             Heroes = ObjectManager.Get<Obj_AI_Hero>().ToList();
